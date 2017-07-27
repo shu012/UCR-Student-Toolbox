@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "522FE3479AC879CA01BA9602AF3F5BAEEF1CA584",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "522FE3479AC879CA01BA9602AF3F5BAEEF1CA584" : 9223372036854775807,
+    "F260BDD286D7E78387CE423B9D8D1BBD2218C981" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E6080221-2610-4FCD-9D36-3E8CC07CA45A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "522FE3479AC879CA01BA9602AF3F5BAEEF1CA584" : "UCR-Student-Toolbox\/",
+    "F260BDD286D7E78387CE423B9D8D1BBD2218C981" : "..\/..\/..\/Volumes\/My%20Passport%20for%20Mac\/CS180-Project"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UCR Student Toolbox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UCR Student Toolbox\/UCR Student Toolbox.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shu012\/UCR-Student-Toolbox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "522FE3479AC879CA01BA9602AF3F5BAEEF1CA584"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TheLuckyOwl\/CS180-Project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F260BDD286D7E78387CE423B9D8D1BBD2218C981"
+    }
+  ]
+}
