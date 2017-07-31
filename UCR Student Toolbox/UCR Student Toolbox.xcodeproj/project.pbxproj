@@ -70,6 +70,7 @@
 		0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */; };
 		0E02F1C31F2A73CF00E04400 /* RateMyProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */; };
 		0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C41F2D953B00E04400 /* StudyViewController.swift */; };
+		0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C61F2EC13800E04400 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,7 @@
 		0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iLearnViewController.swift; path = ../iLearnViewController.swift; sourceTree = "<group>"; };
 		0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateMyProfessorViewController.swift; sourceTree = "<group>"; };
 		0E02F1C41F2D953B00E04400 /* StudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
+		0E02F1C61F2EC13800E04400 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 		0E02EFF11F2813C200E04400 /* UCR Student Toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
 				0E02F1C41F2D953B00E04400 /* StudyViewController.swift */,
@@ -481,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
+				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,
 				0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */,
 				0E02EFF51F2813C200E04400 /* ViewController.swift in Sources */,
 				0E02F1C31F2A73CF00E04400 /* RateMyProfessorViewController.swift in Sources */,
