@@ -10,10 +10,17 @@ import UIKit
 
 class SafetyViewController: UIViewController {
 
+    //add in the actual numbers
     @IBAction func campusCall(_ sender: UIButton) {
-        guard let number = URL(string: "tel://" + "6508233319") else { return }
+        guard let number = URL(string: "tel://" + "0000000000") else { return }
         UIApplication.shared.open(number, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func ucpdCall(_ sender: UIButton) {
+        guard let number = URL(string: "tel://" + "0000000000") else { return }
+        UIApplication.shared.open(number, options: [:], completionHandler: nil)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

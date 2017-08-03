@@ -223,7 +223,6 @@
         <!--Table View Controller-->
         <scene sceneID="1QU-dB-qal">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cZK-RO-0yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Dd6-qd-L4Q" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="DQe-Ta-fF9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -290,6 +289,7 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZK-RO-0yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2503.1999999999998" y="39.130434782608695"/>
         </scene>
@@ -533,6 +533,9 @@
                                 <state key="normal" title="Dial UCPD">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ucpdCall:" destination="MuI-i2-h6z" eventType="touchUpInside" id="t35-cm-N5h"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
