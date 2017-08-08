@@ -72,6 +72,7 @@
 		0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C41F2D953B00E04400 /* StudyViewController.swift */; };
 		0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C61F2EC13800E04400 /* MapViewController.swift */; };
 		0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C81F32610000E04400 /* SafetyViewController.swift */; };
+		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,7 @@
 		0E02F1C41F2D953B00E04400 /* StudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		0E02F1C61F2EC13800E04400 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		0E02F1C81F32610000E04400 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyViewController.swift; path = ../SafetyViewController.swift; sourceTree = "<group>"; };
+		0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
 				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
+				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
 				0E02F1C41F2D953B00E04400 /* StudyViewController.swift */,
 				0E02F1561F29496300E04400 /* account_bgd.png */,
@@ -489,6 +492,7 @@
 			files = (
 				0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
+				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,
 				0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */,
 				0E02EFF51F2813C200E04400 /* ViewController.swift in Sources */,
