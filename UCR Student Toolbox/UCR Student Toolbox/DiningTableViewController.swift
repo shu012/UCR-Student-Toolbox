@@ -26,11 +26,7 @@ class DiningTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    var dining = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
-                  "Clementine", "Coconut", "Cranberry", "Fig", "Grape", "Grapefruit",
-                  "Kiwi fruit", "Lemon", "Lime", "Lychee", "Mandarine", "Mango",
-                  "Melon", "Nectarine", "Olive", "Orange", "Papaya", "Peach",
-                  "Pear", "Pineapple", "Raspberry", "Strawberry"]
+    var dining = [(name: "AI", image: "ai"), (name: "Lothian", image: "lothian"), (name: "Spinelli's", image: "spinelli"), (name: "Glen Mor Market Shop", image: "gmshop"), (name: "Glen Mor Market Sizzle", image: "gmsizzle"), (name: "Glen Mor Market Savor", image: "gmsavor"), (name: "Glen Mor Market Starbucks", image: "gmstarbucks"), (name: "HUB Scotty's", image: "scottys"), (name: "AI Scotty's", image: "scottys"), (name: "Lothian Scotty's", image: "scottys"), (name: "Glen Mor Scotty's", image: "scottys"), (name: "School of Medicine Scotty's", image: "scottys"), (name: "The Barn", image: "barn"), (name: "Bytes", image: "bytes"), (name: "Ivan's", image: "ivan"), (name: "Subway", image: "subway"), (name: "Habanero's", image: "habanero"), (name: "HUB2GO", image: "hub"), (name: "Panda Express", image: "panda"), (name: "Panda Express Sushi", image: "pandasushi"), (name: "La Fiamma", image: "fiamma"), (name: "The Grill", image: "grill"), (name: "Coffee Bean", image: "coffeebean"), (name: "Chameleon", image: "chameleon"), (name: "Moo Moo", image: "moomoo"), (name: "Highlander", image: "highlander"), (name: "Bear Tracks", image: "beartracks")]
     
     // MARK: - UITableViewDataSource
     
@@ -41,7 +37,9 @@ class DiningTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DiningTableViewCell", for: indexPath)
         
-        cell.textLabel?.text = dining[indexPath.row]
+        let place = dining[indexPath.row].name
+        cell.textLabel?.text = place
+        cell.imageView?.image = UIImage(named: dining[indexPath.row].image)
         
         return cell
     }
