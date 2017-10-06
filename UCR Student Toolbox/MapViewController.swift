@@ -30,8 +30,8 @@ class MapViewController: UIViewController {
 //        centerMapOnLocation(location: initialLocation)
         
         let location = CLLocationCoordinate2D(
-            latitude: 33.97533,
-            longitude: -117.329328
+            latitude: 33.973661,
+            longitude: -117.3281893
         )
         // 2
         let span = MKCoordinateSpanMake(0.05, 0.05)

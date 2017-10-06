@@ -28,6 +28,8 @@ class DiningTableViewController: UITableViewController {
     // MARK: - Table view data source
     var dining = [(name: "AI", image: "ai"), (name: "Lothian", image: "lothian"), (name: "Spinelli's", image: "spinelli"), (name: "Glen Mor Market Shop", image: "gmshop"), (name: "Glen Mor Market Sizzle", image: "gmsizzle"), (name: "Glen Mor Market Savor", image: "gmsavor"), (name: "Glen Mor Market Starbucks", image: "gmstarbucks"), (name: "HUB Scotty's", image: "scottys"), (name: "AI Scotty's", image: "scottys"), (name: "Lothian Scotty's", image: "scottys"), (name: "Glen Mor Scotty's", image: "scottys"), (name: "School of Medicine Scotty's", image: "scottys"), (name: "The Barn", image: "barn"), (name: "Bytes", image: "bytes"), (name: "Ivan's", image: "ivan"), (name: "Subway", image: "subway"), (name: "Habanero's", image: "habanero"), (name: "HUB2GO", image: "hub"), (name: "Panda Express", image: "panda"), (name: "Panda Express Sushi", image: "pandasushi"), (name: "La Fiamma", image: "fiamma"), (name: "The Grill", image: "grill"), (name: "Coffee Bean", image: "coffeebean"), (name: "Chameleon", image: "chameleon"), (name: "Moo Moo", image: "moomoo"), (name: "Highlander", image: "highlander"), (name: "Bear Tracks", image: "beartracks")]
     
+//    var dining = ["AI", "Lothian", "Spinelli's", "Glen Mor Market Shop", "Glen Mor Market Sizzle", "Glen Mor Market Savor", "Glen Mor Market Starbucks", "HUB Scotty's", "AI Scotty's", "Lothian Scotty's", "Glen Mor Scotty's", "School of Medicine Scotty's", "Ivan's", "Subway", "Habanero's", "HUB2GO", "Panda Express", "Panda Express Sushi", " La Fiamma", "The Grill", "Coffee Bean", "Chameleon", "Moo Moo", "Highlander", "Bear Tracks"]
+    
     // MARK: - UITableViewDataSource
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,7 +41,7 @@ class DiningTableViewController: UITableViewController {
         
         let place = dining[indexPath.row].name
         cell.textLabel?.text = place
-        cell.imageView?.image = UIImage(named: dining[indexPath.row].image)
+//        cell.imageView?.image = UIImage(named: dining[indexPath.row].image)
         
         return cell
     }
@@ -47,6 +49,21 @@ class DiningTableViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    let menuSegueIdentifier = "ShowMenuSegue"
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if segue.identifier == menuSegueIdentifier,
+            let  destination = segue.destination as? MenuViewController,
+            let index = tableView.indexPathForSelectedRow?.row {
+            destination.menuTitle = dining[index].name
+        }
     }
 
 //    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -110,3 +127,4 @@ class DiningTableViewController: UITableViewController {
     */
 
 }
+

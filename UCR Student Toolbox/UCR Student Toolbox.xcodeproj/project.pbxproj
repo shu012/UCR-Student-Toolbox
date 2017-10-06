@@ -58,6 +58,7 @@
 		0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C41F2D953B00E04400 /* StudyViewController.swift */; };
 		0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C61F2EC13800E04400 /* MapViewController.swift */; };
 		0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C81F32610000E04400 /* SafetyViewController.swift */; };
+		0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
@@ -138,6 +139,8 @@
 		0E02F1C41F2D953B00E04400 /* StudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		0E02F1C61F2EC13800E04400 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		0E02F1C81F32610000E04400 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyViewController.swift; path = ../SafetyViewController.swift; sourceTree = "<group>"; };
+		0E2658A01F840B0A00F5C1F0 /* comingsoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comingsoon.jpg; sourceTree = "<group>"; };
+		0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
 		0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTableViewController.swift; sourceTree = "<group>"; };
@@ -196,9 +199,10 @@
 			children = (
 				0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */,
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
-				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
+				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
+				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
 				0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
 				0E02F1C41F2D953B00E04400 /* StudyViewController.swift */,
@@ -207,6 +211,7 @@
 				0E02F1581F29496300E04400 /* back.png */,
 				0E02F1591F29496300E04400 /* barn.png */,
 				0E02F15B1F29496300E04400 /* bookstore.png */,
+				0E2658A01F840B0A00F5C1F0 /* comingsoon.jpg */,
 				0E02F15C1F29496300E04400 /* border.png */,
 				0E02F15D1F29496300E04400 /* bytes.png */,
 				0E02F1601F29496300E04400 /* contact.png */,
@@ -450,6 +455,7 @@
 				0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
 				0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */,
+				0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */,
 				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,
 				0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */,
