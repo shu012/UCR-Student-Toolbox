@@ -26,9 +26,7 @@ class DiningTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    var dining = [(name: "AI", image: "ai"), (name: "Lothian", image: "lothian"), (name: "Spinelli's", image: "spinelli"), (name: "Glen Mor Market Shop", image: "gmshop"), (name: "Glen Mor Market Sizzle", image: "gmsizzle"), (name: "Glen Mor Market Savor", image: "gmsavor"), (name: "Glen Mor Market Starbucks", image: "gmstarbucks"), (name: "HUB Scotty's", image: "scottys"), (name: "AI Scotty's", image: "scottys"), (name: "Lothian Scotty's", image: "scottys"), (name: "Glen Mor Scotty's", image: "scottys"), (name: "School of Medicine Scotty's", image: "scottys"), (name: "The Barn", image: "barn"), (name: "Bytes", image: "bytes"), (name: "Ivan's", image: "ivan"), (name: "Subway", image: "subway"), (name: "Habanero's", image: "habanero"), (name: "HUB2GO", image: "hub"), (name: "Panda Express", image: "panda"), (name: "Panda Express Sushi", image: "pandasushi"), (name: "La Fiamma", image: "fiamma"), (name: "The Grill", image: "grill"), (name: "Coffee Bean", image: "coffeebean"), (name: "Chameleon", image: "chameleon"), (name: "Moo Moo", image: "moomoo"), (name: "Highlander", image: "highlander"), (name: "Bear Tracks", image: "beartracks")]
-    
-//    var dining = ["AI", "Lothian", "Spinelli's", "Glen Mor Market Shop", "Glen Mor Market Sizzle", "Glen Mor Market Savor", "Glen Mor Market Starbucks", "HUB Scotty's", "AI Scotty's", "Lothian Scotty's", "Glen Mor Scotty's", "School of Medicine Scotty's", "Ivan's", "Subway", "Habanero's", "HUB2GO", "Panda Express", "Panda Express Sushi", " La Fiamma", "The Grill", "Coffee Bean", "Chameleon", "Moo Moo", "Highlander", "Bear Tracks"]
+    var dining = [(name: "AI", image: "ai", html: "ai"), (name: "Lothian", image: "lothian", html: "lothian"), (name: "Spinelli's", image: "spinelli", html: "spinelli"), (name: "Glen Mor Market Shop", image: "gmshop", html: "gmshop"), (name: "Glen Mor Market Sizzle", image: "gmsizzle", html: "gmsizzle"), (name: "Glen Mor Market Savor", image: "gmsavor", html: "gmsavor"), (name: "Glen Mor Market Starbucks", image: "gmstarbucks", html: "gmstarbucks"), (name: "HUB Scotty's", image: "scottys", html: "hubscot"), (name: "AI Scotty's", image: "scottys", html: "aiscot"), (name: "Lothian Scotty's", image: "scottys", html: "lothianscot"), (name: "Glen Mor Scotty's", image: "scottys", html: "gmscot"), (name: "School of Medicine Scotty's", image: "scottys", html: "medscot"), (name: "The Barn", image: "barn", html: "barn"), (name: "Bytes", image: "bytes", html: "bytes"), (name: "Ivan's", image: "ivan", html: "ivan"), (name: "Subway", image: "subway", html: "subway"), (name: "Habanero's", image: "habanero", html: "habanero"), (name: "HUB2GO", image: "hub", html: "hub"), (name: "Panda Express", image: "panda", html: "panda"), (name: "Panda Express Sushi", image: "pandasushi", html: "pandasushi"), (name: "La Fiamma", image: "fiamma", html: "fiamma"), (name: "The Grill", image: "grill", html: "grill"), (name: "Coffee Bean", image: "coffeebean", html: "coffeebean"), (name: "Chameleon", image: "chameleon", html: "chameleon"), (name: "Moo Moo", image: "moomoo", html: "moomoo"), (name: "Highlander", image: "highlander", html: "highlander"), (name: "Bear Tracks", image: "beartracks", html: "beartracks")]
     
     // MARK: - UITableViewDataSource
     
@@ -63,6 +61,7 @@ class DiningTableViewController: UITableViewController {
             let  destination = segue.destination as? MenuViewController,
             let index = tableView.indexPathForSelectedRow?.row {
             destination.menuTitle = dining[index].name
+            destination.menuHTML = dining[index].html
         }
     }
 

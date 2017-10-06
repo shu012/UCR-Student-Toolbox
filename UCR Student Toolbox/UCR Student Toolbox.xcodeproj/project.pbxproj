@@ -59,6 +59,33 @@
 		0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C61F2EC13800E04400 /* MapViewController.swift */; };
 		0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C81F32610000E04400 /* SafetyViewController.swift */; };
 		0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */; };
+		0E2658A81F883C4400F5C1F0 /* ai.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658A61F87254800F5C1F0 /* ai.html */; };
+		0E2658A91F883C8E00F5C1F0 /* aiscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658A51F87254800F5C1F0 /* aiscot.html */; };
+		0E2658C31F88403100F5C1F0 /* barn.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BA1F88402D00F5C1F0 /* barn.html */; };
+		0E2658C41F88403500F5C1F0 /* beartracks.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658C01F88402E00F5C1F0 /* beartracks.html */; };
+		0E2658C51F88403700F5C1F0 /* bytes.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BE1F88402E00F5C1F0 /* bytes.html */; };
+		0E2658C61F88403A00F5C1F0 /* chameleon.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AE1F88402D00F5C1F0 /* chameleon.html */; };
+		0E2658C71F88404C00F5C1F0 /* coffeebean.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AF1F88402D00F5C1F0 /* coffeebean.html */; };
+		0E2658C81F88405000F5C1F0 /* fiamma.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AA1F88402D00F5C1F0 /* fiamma.html */; };
+		0E2658C91F88405400F5C1F0 /* gmsavor.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B51F88402D00F5C1F0 /* gmsavor.html */; };
+		0E2658CA1F88405700F5C1F0 /* gmscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BB1F88402D00F5C1F0 /* gmscot.html */; };
+		0E2658CB1F88405A00F5C1F0 /* gmshop.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B81F88402D00F5C1F0 /* gmshop.html */; };
+		0E2658CC1F88405D00F5C1F0 /* gmsizzle.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B71F88402D00F5C1F0 /* gmsizzle.html */; };
+		0E2658CD1F88406000F5C1F0 /* gmstarbucks.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B61F88402D00F5C1F0 /* gmstarbucks.html */; };
+		0E2658CE1F88406300F5C1F0 /* grill.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B11F88402D00F5C1F0 /* grill.html */; };
+		0E2658CF1F88406700F5C1F0 /* habanero.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BF1F88402E00F5C1F0 /* habanero.html */; };
+		0E2658D01F88406A00F5C1F0 /* highlander.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B01F88402D00F5C1F0 /* highlander.html */; };
+		0E2658D11F88406E00F5C1F0 /* hub.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BD1F88402D00F5C1F0 /* hub.html */; };
+		0E2658D21F88407100F5C1F0 /* hubscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658C21F88402E00F5C1F0 /* hubscot.html */; };
+		0E2658D31F88407600F5C1F0 /* ivan.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B21F88402D00F5C1F0 /* ivan.html */; };
+		0E2658D41F88407F00F5C1F0 /* lothian.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658C11F88402E00F5C1F0 /* lothian.html */; };
+		0E2658D51F8840C900F5C1F0 /* medscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AC1F88402D00F5C1F0 /* medscot.html */; };
+		0E2658D61F8840CB00F5C1F0 /* lothianscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AB1F88402D00F5C1F0 /* lothianscot.html */; };
+		0E2658D71F8840D300F5C1F0 /* moomoo.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B91F88402D00F5C1F0 /* moomoo.html */; };
+		0E2658D81F8840DA00F5C1F0 /* panda.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B41F88402D00F5C1F0 /* panda.html */; };
+		0E2658D91F8840DC00F5C1F0 /* pandasushi.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BC1F88402D00F5C1F0 /* pandasushi.html */; };
+		0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AD1F88402D00F5C1F0 /* spinelli.html */; };
+		0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B31F88402D00F5C1F0 /* subway.html */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
@@ -141,6 +168,33 @@
 		0E02F1C81F32610000E04400 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyViewController.swift; path = ../SafetyViewController.swift; sourceTree = "<group>"; };
 		0E2658A01F840B0A00F5C1F0 /* comingsoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comingsoon.jpg; sourceTree = "<group>"; };
 		0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
+		0E2658A51F87254800F5C1F0 /* aiscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = aiscot.html; sourceTree = SOURCE_ROOT; };
+		0E2658A61F87254800F5C1F0 /* ai.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = ai.html; path = "UCR Student Toolbox/ai.html"; sourceTree = SOURCE_ROOT; };
+		0E2658AA1F88402D00F5C1F0 /* fiamma.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = fiamma.html; sourceTree = SOURCE_ROOT; };
+		0E2658AB1F88402D00F5C1F0 /* lothianscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lothianscot.html; sourceTree = SOURCE_ROOT; };
+		0E2658AC1F88402D00F5C1F0 /* medscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = medscot.html; sourceTree = SOURCE_ROOT; };
+		0E2658AD1F88402D00F5C1F0 /* spinelli.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = spinelli.html; sourceTree = SOURCE_ROOT; };
+		0E2658AE1F88402D00F5C1F0 /* chameleon.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = chameleon.html; sourceTree = SOURCE_ROOT; };
+		0E2658AF1F88402D00F5C1F0 /* coffeebean.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = coffeebean.html; sourceTree = SOURCE_ROOT; };
+		0E2658B01F88402D00F5C1F0 /* highlander.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = highlander.html; sourceTree = SOURCE_ROOT; };
+		0E2658B11F88402D00F5C1F0 /* grill.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = grill.html; sourceTree = SOURCE_ROOT; };
+		0E2658B21F88402D00F5C1F0 /* ivan.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ivan.html; sourceTree = SOURCE_ROOT; };
+		0E2658B31F88402D00F5C1F0 /* subway.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = subway.html; sourceTree = SOURCE_ROOT; };
+		0E2658B41F88402D00F5C1F0 /* panda.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = panda.html; sourceTree = SOURCE_ROOT; };
+		0E2658B51F88402D00F5C1F0 /* gmsavor.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gmsavor.html; sourceTree = SOURCE_ROOT; };
+		0E2658B61F88402D00F5C1F0 /* gmstarbucks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gmstarbucks.html; sourceTree = SOURCE_ROOT; };
+		0E2658B71F88402D00F5C1F0 /* gmsizzle.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gmsizzle.html; sourceTree = SOURCE_ROOT; };
+		0E2658B81F88402D00F5C1F0 /* gmshop.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gmshop.html; sourceTree = SOURCE_ROOT; };
+		0E2658B91F88402D00F5C1F0 /* moomoo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = moomoo.html; sourceTree = SOURCE_ROOT; };
+		0E2658BA1F88402D00F5C1F0 /* barn.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = barn.html; sourceTree = SOURCE_ROOT; };
+		0E2658BB1F88402D00F5C1F0 /* gmscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gmscot.html; sourceTree = SOURCE_ROOT; };
+		0E2658BC1F88402D00F5C1F0 /* pandasushi.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pandasushi.html; sourceTree = SOURCE_ROOT; };
+		0E2658BD1F88402D00F5C1F0 /* hub.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hub.html; sourceTree = SOURCE_ROOT; };
+		0E2658BE1F88402E00F5C1F0 /* bytes.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bytes.html; sourceTree = SOURCE_ROOT; };
+		0E2658BF1F88402E00F5C1F0 /* habanero.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = habanero.html; sourceTree = SOURCE_ROOT; };
+		0E2658C01F88402E00F5C1F0 /* beartracks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = beartracks.html; sourceTree = SOURCE_ROOT; };
+		0E2658C11F88402E00F5C1F0 /* lothian.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lothian.html; sourceTree = SOURCE_ROOT; };
+		0E2658C21F88402E00F5C1F0 /* hubscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hubscot.html; sourceTree = SOURCE_ROOT; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
 		0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTableViewController.swift; sourceTree = "<group>"; };
@@ -198,10 +252,37 @@
 			isa = PBXGroup;
 			children = (
 				0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */,
+				0E2658A61F87254800F5C1F0 /* ai.html */,
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
 				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
+				0E2658BA1F88402D00F5C1F0 /* barn.html */,
+				0E2658C01F88402E00F5C1F0 /* beartracks.html */,
+				0E2658BE1F88402E00F5C1F0 /* bytes.html */,
+				0E2658AE1F88402D00F5C1F0 /* chameleon.html */,
+				0E2658AF1F88402D00F5C1F0 /* coffeebean.html */,
+				0E2658AA1F88402D00F5C1F0 /* fiamma.html */,
+				0E2658B51F88402D00F5C1F0 /* gmsavor.html */,
+				0E2658BB1F88402D00F5C1F0 /* gmscot.html */,
+				0E2658B81F88402D00F5C1F0 /* gmshop.html */,
+				0E2658B71F88402D00F5C1F0 /* gmsizzle.html */,
+				0E2658B61F88402D00F5C1F0 /* gmstarbucks.html */,
+				0E2658B11F88402D00F5C1F0 /* grill.html */,
+				0E2658BF1F88402E00F5C1F0 /* habanero.html */,
+				0E2658B01F88402D00F5C1F0 /* highlander.html */,
+				0E2658BD1F88402D00F5C1F0 /* hub.html */,
+				0E2658C21F88402E00F5C1F0 /* hubscot.html */,
+				0E2658B21F88402D00F5C1F0 /* ivan.html */,
+				0E2658C11F88402E00F5C1F0 /* lothian.html */,
+				0E2658AB1F88402D00F5C1F0 /* lothianscot.html */,
+				0E2658AC1F88402D00F5C1F0 /* medscot.html */,
+				0E2658B91F88402D00F5C1F0 /* moomoo.html */,
+				0E2658B41F88402D00F5C1F0 /* panda.html */,
+				0E2658BC1F88402D00F5C1F0 /* pandasushi.html */,
+				0E2658AD1F88402D00F5C1F0 /* spinelli.html */,
+				0E2658B31F88402D00F5C1F0 /* subway.html */,
+				0E2658A51F87254800F5C1F0 /* aiscot.html */,
 				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
 				0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
@@ -385,48 +466,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2658A81F883C4400F5C1F0 /* ai.html in Resources */,
+				0E2658A91F883C8E00F5C1F0 /* aiscot.html in Resources */,
+				0E2658CB1F88405A00F5C1F0 /* gmshop.html in Resources */,
+				0E2658D21F88407100F5C1F0 /* hubscot.html in Resources */,
 				0E02F1B61F29496300E04400 /* lothian.png in Resources */,
 				0E02F1B21F29496300E04400 /* library.png in Resources */,
 				0E02F1B51F29496300E04400 /* logout.png in Resources */,
 				0E02F1921F29496300E04400 /* bytes.png in Resources */,
+				0E2658C41F88403500F5C1F0 /* beartracks.html in Resources */,
 				0E02F1A51F29496300E04400 /* icon_books.png in Resources */,
 				0E02F1A71F29496300E04400 /* icon_friend.png in Resources */,
 				0E02F1AA1F29496300E04400 /* icon_professor.png in Resources */,
+				0E2658C51F88403700F5C1F0 /* bytes.html in Resources */,
+				0E2658C81F88405000F5C1F0 /* fiamma.html in Resources */,
 				0E02F18C1F29496300E04400 /* ai.png in Resources */,
 				0E02F1A91F29496300E04400 /* icon_map.png in Resources */,
 				0E02F1AD1F29496300E04400 /* icon_schedule.png in Resources */,
+				0E2658CA1F88405700F5C1F0 /* gmscot.html in Resources */,
 				0E02F1AC1F29496300E04400 /* icon_safety.png in Resources */,
+				0E2658CF1F88406700F5C1F0 /* habanero.html in Resources */,
 				0E02F18E1F29496300E04400 /* barn.png in Resources */,
 				0E02EFFD1F2813C200E04400 /* LaunchScreen.storyboard in Resources */,
 				0E02F1971F29496300E04400 /* fiamma.jpg in Resources */,
+				0E2658D01F88406A00F5C1F0 /* highlander.html in Resources */,
 				0E02F18D1F29496300E04400 /* back.png in Resources */,
 				0E02F1B81F29496300E04400 /* oldsplash.png in Resources */,
 				0E02EFFA1F2813C200E04400 /* Assets.xcassets in Resources */,
+				0E2658D61F8840CB00F5C1F0 /* lothianscot.html in Resources */,
 				0E02F1BE1F29496300E04400 /* splash.png in Resources */,
 				0E02F19D1F29496300E04400 /* gmstarbucks.png in Resources */,
+				0E2658C91F88405400F5C1F0 /* gmsavor.html in Resources */,
+				0E2658D91F8840DC00F5C1F0 /* pandasushi.html in Resources */,
 				0E02F1A81F29496300E04400 /* icon_ilearn.png in Resources */,
 				0E02F1951F29496300E04400 /* contact.png in Resources */,
 				0E02EFF81F2813C200E04400 /* Main.storyboard in Resources */,
 				0E02F18B1F29496300E04400 /* account_bgd.png in Resources */,
+				0E2658D81F8840DA00F5C1F0 /* panda.html in Resources */,
+				0E2658CE1F88406300F5C1F0 /* grill.html in Resources */,
 				0E02F1B31F29496300E04400 /* lock_img.png in Resources */,
 				0E02F1A41F29496300E04400 /* ic_launcher.png in Resources */,
+				0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */,
 				0E02F1B91F29496300E04400 /* panda.png in Resources */,
 				0E02F1B41F29496300E04400 /* login_back.png in Resources */,
+				0E2658C71F88404C00F5C1F0 /* coffeebean.html in Resources */,
 				0E02F19F1F29496300E04400 /* gym.png in Resources */,
+				0E2658CC1F88405D00F5C1F0 /* gmsizzle.html in Resources */,
 				0E02F1BD1F29496300E04400 /* spinelli.png in Resources */,
 				0E02F1AB1F29496300E04400 /* icon_room.png in Resources */,
+				0E2658D41F88407F00F5C1F0 /* lothian.html in Resources */,
+				0E2658D31F88407600F5C1F0 /* ivan.html in Resources */,
+				0E2658D11F88406E00F5C1F0 /* hub.html in Resources */,
 				0E02F1AE1F29496300E04400 /* icon_settings.png in Resources */,
 				0E02F1B71F29496300E04400 /* moomoo.png in Resources */,
 				0E02F1AF1F29496300E04400 /* icon_time.png in Resources */,
 				0E02F1901F29496300E04400 /* bookstore.png in Resources */,
+				0E2658C31F88403100F5C1F0 /* barn.html in Resources */,
 				0E02F1B01F29496300E04400 /* icon_truck.png in Resources */,
+				0E2658D51F8840C900F5C1F0 /* medscot.html in Resources */,
 				0E02F1A61F29496300E04400 /* icon_food.png in Resources */,
 				0E02F1911F29496300E04400 /* border.png in Resources */,
 				0E02F1BF1F29496300E04400 /* subway.png in Resources */,
 				0E02F1981F29496300E04400 /* garden.png in Resources */,
 				0E02F1BB1F29496300E04400 /* scottys.png in Resources */,
+				0E2658C61F88403A00F5C1F0 /* chameleon.html in Resources */,
+				0E2658D71F8840D300F5C1F0 /* moomoo.html in Resources */,
 				0E02F1BC1F29496300E04400 /* service.png in Resources */,
 				0E02F1A21F29496300E04400 /* highlanderwelcome.png in Resources */,
+				0E2658CD1F88406000F5C1F0 /* gmstarbucks.html in Resources */,
+				0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,9 +13,17 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var menuLabel: UILabel!
     @IBOutlet weak var menuWeb: UIWebView!
     var menuTitle = String()
+    var menuHTML = String()
+    
+    func loadHtmlFile() {
+        let url = Bundle.main.url(forResource: menuHTML, withExtension:"html")
+        let request = URLRequest(url: url!)
+        menuWeb.loadRequest(request)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadHtmlFile()
         // Do any additional setup after loading the view.
     }
     
