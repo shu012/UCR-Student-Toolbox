@@ -8,26 +8,30 @@
 
 import UIKit
 import MapKit
-
+//import GoogleMaps
 class MapViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     
-//    let regionRadius: CLLocationDistance = 1000
-//    func centerMapOnLocation(location: CLLocation) {
-//        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-//                                                                  regionRadius * 2.0, regionRadius * 2.0)
-//        mapView.setRegion(coordinateRegion, animated: true)
+//    override func loadView() {
+//        navigationItem.title = "Hello Map"
+//
+//        let camera = GMSCameraPosition.camera(withLatitude: 33.973661,
+//                                              longitude: -117.3281893,
+//                                              zoom: 14)
+//        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+//
+//        let marker = GMSMarker()
+//        marker.position = camera.target
+//        marker.snippet = "Hello World"
+//        marker.appearAnimation = kGMSMarkerAnimationPop
+//        marker.map = mapView
 //    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-//        let initialLocation = CLLocation(latitude: 33.9737, longitude: 117.3281)
-//        
-//        centerMapOnLocation(location: initialLocation)
         
         let location = CLLocationCoordinate2D(
             latitude: 33.973661,
@@ -37,7 +41,7 @@ class MapViewController: UIViewController {
         let span = MKCoordinateSpanMake(0.05, 0.05)
         let region = MKCoordinateRegion(center: location, span: span)
         mapView.setRegion(region, animated: true)
-        
+
         //3
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
