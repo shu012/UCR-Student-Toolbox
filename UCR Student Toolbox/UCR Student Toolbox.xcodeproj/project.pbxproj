@@ -58,6 +58,7 @@
 		0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C41F2D953B00E04400 /* StudyViewController.swift */; };
 		0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C61F2EC13800E04400 /* MapViewController.swift */; };
 		0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F1C81F32610000E04400 /* SafetyViewController.swift */; };
+		0E0A5D0B1F96712F0001F5E6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A5D0A1F96712F0001F5E6 /* Podfile */; };
 		0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */; };
 		0E2658A81F883C4400F5C1F0 /* ai.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658A61F87254800F5C1F0 /* ai.html */; };
 		0E2658A91F883C8E00F5C1F0 /* aiscot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658A51F87254800F5C1F0 /* aiscot.html */; };
@@ -89,6 +90,7 @@
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
+		C7C3214A30BD82419073EDDF /* libPods-UCR Student Toolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +168,7 @@
 		0E02F1C41F2D953B00E04400 /* StudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		0E02F1C61F2EC13800E04400 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		0E02F1C81F32610000E04400 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyViewController.swift; path = ../SafetyViewController.swift; sourceTree = "<group>"; };
+		0E0A5D0A1F96712F0001F5E6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0E2658A01F840B0A00F5C1F0 /* comingsoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comingsoon.jpg; sourceTree = "<group>"; };
 		0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		0E2658A51F87254800F5C1F0 /* aiscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = aiscot.html; sourceTree = SOURCE_ROOT; };
@@ -201,6 +204,9 @@
 		0EFFAB2D1F3AAB3100DD6163 /* beartracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beartracks.png; sourceTree = SOURCE_ROOT; };
 		0EFFAB2E1F3AAB3100DD6163 /* chameleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chameleon.png; sourceTree = SOURCE_ROOT; };
 		0EFFAB2F1F3AAB3100DD6163 /* coffeebean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeebean.png; sourceTree = SOURCE_ROOT; };
+		149ECE9D754B274FD269EE22 /* Pods-UCR Student Toolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCR Student Toolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox.release.xcconfig"; sourceTree = "<group>"; };
+		A89CCC7F2D5209BDCE18A828 /* Pods-UCR Student Toolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCR Student Toolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UCR Student Toolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C3214A30BD82419073EDDF /* libPods-UCR Student Toolbox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,10 +238,13 @@
 		0E02EFE61F2813C200E04400 = {
 			isa = PBXGroup;
 			children = (
+				0E0A5D0A1F96712F0001F5E6 /* Podfile */,
 				0E02EFF11F2813C200E04400 /* UCR Student Toolbox */,
 				0E02F0061F2813C300E04400 /* UCR Student ToolboxTests */,
 				0E02F0111F2813C300E04400 /* UCR Student ToolboxUITests */,
 				0E02EFF01F2813C200E04400 /* Products */,
+				1CADF03E0E0F47DC926C46A0 /* Pods */,
+				2CBCB9017871E3991C6FC36D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -358,6 +368,23 @@
 			path = "UCR Student ToolboxUITests";
 			sourceTree = "<group>";
 		};
+		1CADF03E0E0F47DC926C46A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A89CCC7F2D5209BDCE18A828 /* Pods-UCR Student Toolbox.debug.xcconfig */,
+				149ECE9D754B274FD269EE22 /* Pods-UCR Student Toolbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CBCB9017871E3991C6FC36D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E02F0171F2813C300E04400 /* Build configuration list for PBXNativeTarget "UCR Student Toolbox" */;
 			buildPhases = (
+				9DD80A0A45365378CA61E55F /* [CP] Check Pods Manifest.lock */,
 				0E02EFEB1F2813C200E04400 /* Sources */,
 				0E02EFEC1F2813C200E04400 /* Frameworks */,
 				0E02EFED1F2813C200E04400 /* Resources */,
+				C451186230AF6105069AC0A5 /* [CP] Embed Pods Frameworks */,
+				DF1A7AC93EA4BFAC309CDF94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -506,6 +536,7 @@
 				0E2658CE1F88406300F5C1F0 /* grill.html in Resources */,
 				0E02F1B31F29496300E04400 /* lock_img.png in Resources */,
 				0E02F1A41F29496300E04400 /* ic_launcher.png in Resources */,
+				0E0A5D0B1F96712F0001F5E6 /* Podfile in Resources */,
 				0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */,
 				0E02F1B91F29496300E04400 /* panda.png in Resources */,
 				0E02F1B41F29496300E04400 /* login_back.png in Resources */,
@@ -553,6 +584,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DD80A0A45365378CA61E55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UCR Student Toolbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C451186230AF6105069AC0A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1A7AC93EA4BFAC309CDF94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E02EFEB1F2813C200E04400 /* Sources */ = {
@@ -721,12 +807,15 @@
 		};
 		0E02F0181F2813C300E04400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89CCC7F2D5209BDCE18A828 /* Pods-UCR Student Toolbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LP2B3627Y5;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "UCR Student Toolbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sara.UCR-Student-Toolbox";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = "UCR-Student-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -734,12 +823,15 @@
 		};
 		0E02F0191F2813C300E04400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149ECE9D754B274FD269EE22 /* Pods-UCR Student Toolbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LP2B3627Y5;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "UCR Student Toolbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sara.UCR-Student-Toolbox";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = "UCR-Student-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

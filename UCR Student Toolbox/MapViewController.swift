@@ -8,48 +8,33 @@
 
 import UIKit
 import MapKit
-//import GoogleMaps
-class MapViewController: UIViewController {
+import GooglePlaces
+import GoogleMaps
 
-    @IBOutlet weak var mapView: MKMapView!
+class MapViewController: UIViewController {
     
-//    override func loadView() {
-//        navigationItem.title = "Hello Map"
-//
-//        let camera = GMSCameraPosition.camera(withLatitude: 33.973661,
-//                                              longitude: -117.3281893,
-//                                              zoom: 14)
-//        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
-//
-//        let marker = GMSMarker()
-//        marker.position = camera.target
-//        marker.snippet = "Hello World"
-//        marker.appearAnimation = kGMSMarkerAnimationPop
-//        marker.map = mapView
-//    }
+    @IBOutlet weak var mapView: MKMapView!
+    let distance: CLLocationDistance = 950
+    let pitch: CGFloat = 65
+    let heading = 0.0
+    var camera: MKMapCamera?
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if #available(iOS 11.0, *) {
+            mapView.mapType = .hybridFlyover
+        } else {
+            // Fallback on earlier versions
+            mapView.mapType = .hybrid
+        }
         
-        let location = CLLocationCoordinate2D(
-            latitude: 33.973661,
-            longitude: -117.3281893
-        )
-        // 2
-        let span = MKCoordinateSpanMake(0.05, 0.05)
-        let region = MKCoordinateRegion(center: location, span: span)
-        mapView.setRegion(region, animated: true)
-
-        //3
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = location
-        annotation.title = "University of California Riverside"
-        annotation.subtitle = "Riverside"
-        mapView.addAnnotation(annotation)
+        let coordinate = CLLocationCoordinate2D(latitude: 33.973661,
+                                                longitude: -117.3281893)
+        camera = MKMapCamera(lookingAtCenter: coordinate,
+                             fromDistance: distance,
+                             pitch: pitch,
+                             heading: heading)
+        mapView.camera = camera!
     }
-    
 
     /*
     // MARK: - Navigation
