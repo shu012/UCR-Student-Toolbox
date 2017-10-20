@@ -1,34 +1,27 @@
 //
-//  MenuViewController.swift
+//  TruckLocationsViewController.swift
 //  UCR Student Toolbox
 //
-//  Created by Sara Hu on 10/5/17.
+//  Created by Sara Hu on 10/20/17.
 //  Copyright © 2017 Sara Hu. All rights reserved.
 //
 
 import UIKit
 
-class MenuViewController: UIViewController {
+class TruckLocationsViewController: ViewController {
+
+    @IBOutlet weak var truckLabel: UILabel!
+    @IBOutlet weak var locWeb: UIWebView!
     
-    @IBOutlet weak var menuLabel: UILabel!
-    @IBOutlet weak var menuWeb: UIWebView!
     var label = String()
-    var menuHTML = String()
-    
-    func loadHtmlFile() {
-        let url = Bundle.main.url(forResource: menuHTML, withExtension:"html")
-        let request = URLRequest(url: url!)
-        menuWeb.loadRequest(request)
-    }
+    var location = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadHtmlFile()
+        truckLabel.text = label
+        let url = URL(string: location)
+        locWeb.loadRequest(URLRequest(url: url!))
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        menuLabel.text = label
     }
 
     override func didReceiveMemoryWarning() {

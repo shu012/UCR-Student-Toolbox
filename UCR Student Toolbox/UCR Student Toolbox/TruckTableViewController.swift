@@ -26,20 +26,20 @@ class TruckTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    var dining = [(name: "Moo Moo", image: "moomoo"), (name: "Highlander", image: "highlander"), (name: "Bear Tracks", image: "beartracks")]
+    var truck = [(name: "Culinary Chameleon", image: "chameleon", url: "http://vcsaweb.ucr.edu/foodtruck-location/Home/GoogleMap?truckName=CulinaryChameleon"),(name: "Moo Moo", image: "moomoo", url: "http://vcsaweb.ucr.edu/foodtruck-location/Home/GoogleMap?truckName=moomoo"), (name: "Highlander", image: "highlander", url: "http://vcsaweb.ucr.edu/foodtruck-location/Home/GoogleMap?truckName=tartan"), (name: "Bear Tracks", image: "beartracks", url: "http://vcsaweb.ucr.edu/foodtruck-location/Home/GoogleMap?truckName=BearTracks")]
     
     // MARK: - UITableViewDataSource
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dining.count
+        return truck.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TruckTableViewCell", for: indexPath)
         
-        let place = dining[indexPath.row].name
+        let place = truck[indexPath.row].name
         cell.textLabel?.text = place
-        cell.imageView?.image = UIImage(named: dining[indexPath.row].image)
+//        cell.imageView?.image = UIImage(named: truck[indexPath.row].image)
         
         return cell
     }
@@ -48,6 +48,17 @@ class TruckTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+    
+        let truckSegueIdentifier = "ShowTruckSegue"
+    
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+            if segue.identifier == truckSegueIdentifier,
+                let  destination = segue.destination as? TruckLocationsViewController,
+                let index = tableView.indexPathForSelectedRow?.row {
+                destination.label = truck[index].name
+                destination.location = truck[index].url
+            }
+        }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

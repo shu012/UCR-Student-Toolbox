@@ -26,20 +26,22 @@ class BuildingTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    var dining = [(name: "Orbach Library", image: "library"), (name: "Rivera Library", image: "library"), (name: "Student Recreation Center", image: "gym"), (name: "Bookstore", image: "bookstore"), (name: "Student Services", image: "service"), (name: "Botanical Gardens", image: "garden")]
+    var building = [(name: "Orbach Library", image: "library"), (name: "Rivera Library", image: "library"), (name: "Student Recreation Center", image: "gym"), (name: "Bookstore", image: "bookstore"), (name: "Student Services", image: "service"), (name: "Botanical Gardens", image: "garden")]
+    
+//    var building = [(name: "Orbach Library", image: "library", html: "orbach"), (name: "Rivera Library", image: "library", html: "rivera"), (name: "Student Recreation Center", image: "gym", html: "gym"), (name: "Bookstore", image: "bookstore", html: "bookstore"), (name: "Student Services", image: "service", html: "sservice"), (name: "Botanical Gardens", image: "garden", html: "garden")]
     
     // MARK: - UITableViewDataSource
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dining.count
+        return building.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BuildingTableViewCell", for: indexPath)
         
-        let place = dining[indexPath.row].name
+        let place = building[indexPath.row].name
         cell.textLabel?.text = place
-        cell.imageView?.image = UIImage(named: dining[indexPath.row].image)
+        cell.imageView?.image = UIImage(named: building[indexPath.row].image)
         
         return cell
     }
@@ -48,6 +50,17 @@ class BuildingTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+    
+//    let menuSegueIdentifier = "ShowHourSegue"
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+//        if segue.identifier == menuSegueIdentifier,
+//            let  destination = segue.destination as? MenuViewController,
+//            let index = tableView.indexPathForSelectedRow?.row {
+//            destination.label = building[index].name
+////            destination.menuHTML = building[index].html
+//        }
+//    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
