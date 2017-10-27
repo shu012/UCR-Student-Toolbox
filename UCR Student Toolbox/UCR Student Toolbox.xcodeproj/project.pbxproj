@@ -88,6 +88,7 @@
 		0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AD1F88402D00F5C1F0 /* spinelli.html */; };
 		0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B31F88402D00F5C1F0 /* subway.html */; };
 		0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */; };
+		0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
@@ -200,6 +201,7 @@
 		0E2658C11F88402E00F5C1F0 /* lothian.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lothian.html; sourceTree = SOURCE_ROOT; };
 		0E2658C21F88402E00F5C1F0 /* hubscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hubscot.html; sourceTree = SOURCE_ROOT; };
 		0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationsViewController.swift; sourceTree = "<group>"; };
+		0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
 		0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTableViewController.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
+				0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */,
 				0E2658BA1F88402D00F5C1F0 /* barn.html */,
 				0E2658C01F88402E00F5C1F0 /* beartracks.html */,
 				0E2658BE1F88402E00F5C1F0 /* bytes.html */,
@@ -649,6 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */,
+				0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */,
 				0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */,
 				0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,

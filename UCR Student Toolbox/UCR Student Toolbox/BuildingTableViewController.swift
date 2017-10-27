@@ -51,16 +51,17 @@ class BuildingTableViewController: UITableViewController {
         return 1
     }
     
-//    let menuSegueIdentifier = "ShowHourSegue"
-//
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-//        if segue.identifier == menuSegueIdentifier,
-//            let  destination = segue.destination as? MenuViewController,
-//            let index = tableView.indexPathForSelectedRow?.row {
-//            destination.label = building[index].name
-////            destination.menuHTML = building[index].html
-//        }
-//    }
+    let buildingSegueIdentifier = "ShowHourSegue"
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if segue.identifier == buildingSegueIdentifier,
+            let  destination = segue.destination as? MenuViewController,
+            let index = tableView.indexPathForSelectedRow?.row {
+            destination.label = building[index].name
+            destination.htmlFile = ""
+//            destination.htmlFile = building[index].html
+        }
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

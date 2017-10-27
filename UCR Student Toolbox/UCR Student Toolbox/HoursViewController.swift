@@ -1,21 +1,20 @@
 //
-//  MenuViewController.swift
+//  HoursViewController.swift
 //  UCR Student Toolbox
 //
-//  Created by Sara Hu on 10/5/17.
+//  Created by Sara Hu on 10/21/17.
 //  Copyright © 2017 Sara Hu. All rights reserved.
 //
 
 import UIKit
 
-class MenuViewController: UIViewController {
-    
+class HoursViewController: ViewController {
     @IBOutlet weak var menuLabel: UILabel!
     @IBOutlet weak var menuWeb: UIWebView!
     var label = String()
     var htmlFile = String()
     var segueIdentifier = String()
-
+    
     func loadHtmlFile() {
         let url = Bundle.main.url(forResource: htmlFile, withExtension:"html")
         let request = URLRequest(url: url!)

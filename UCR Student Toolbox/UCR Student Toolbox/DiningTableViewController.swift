@@ -61,7 +61,7 @@ class DiningTableViewController: UITableViewController {
             let  destination = segue.destination as? MenuViewController,
             let index = tableView.indexPathForSelectedRow?.row {
             destination.label = dining[index].name
-            destination.menuHTML = dining[index].html
+            destination.htmlFile = dining[index].html
         }
     }
 
