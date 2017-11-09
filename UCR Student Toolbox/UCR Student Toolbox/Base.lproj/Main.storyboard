@@ -629,9 +629,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="O3s-RA-lhu"/>
-                    <connections>
-                        <outlet property="tableView" destination="DQe-Ta-fF9" id="TZj-1S-iaX"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZK-RO-0yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -980,8 +977,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="menuLabel" destination="tnC-LN-Ixv" id="Azc-VT-KHv"/>
-                        <outlet property="menuWeb" destination="pPL-3h-LSo" id="mzJ-Em-WQN"/>
+                        <outlet property="hoursLabel" destination="tnC-LN-Ixv" id="dVL-pM-sLt"/>
+                        <outlet property="hoursWeb" destination="pPL-3h-LSo" id="3hY-MR-kE1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qtd-3l-PEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1197,17 +1194,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l4v-lg-hfe">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="egj-mN-T8L">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" image="account_bgd.png" translatesAutoresizingMaskIntoConstraints="NO" id="BIz-25-wmE">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="feH-Jb-wq1">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="BIz-25-wmE" secondAttribute="height" multiplier="75:19" id="CTn-4W-Vnm"/>
-                                            <constraint firstAttribute="height" constant="95" id="Iu0-jg-pBN"/>
-                                        </constraints>
-                                    </imageView>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" image="account_bgd.png" translatesAutoresizingMaskIntoConstraints="NO" id="BIz-25-wmE">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="BIz-25-wmE" secondAttribute="height" multiplier="75:19" id="CTn-4W-Vnm"/>
+                                                    <constraint firstAttribute="height" constant="95" id="Iu0-jg-pBN"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jry-rS-0j7">
@@ -1261,10 +1263,10 @@
         <image name="login_back.png" width="575" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nt2-ak-WWT"/>
-        <segue reference="8wE-Xv-yY1"/>
-        <segue reference="Kp7-fs-JdS"/>
-        <segue reference="73W-dS-r17"/>
         <segue reference="INQ-ue-M2K"/>
+        <segue reference="SQa-et-E5v"/>
+        <segue reference="4Ri-w2-qXK"/>
+        <segue reference="mbw-HF-lFS"/>
+        <segue reference="Yqx-6W-E3F"/>
     </inferredMetricsTieBreakers>
 </document>

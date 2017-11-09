@@ -91,6 +91,12 @@
 		0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
+		0EEB62301FB3DE6F001F440F /* bookstore.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622A1FB3DCCE001F440F /* bookstore.html */; };
+		0EEB62311FB3DE71001F440F /* garden.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622D1FB3DCCE001F440F /* garden.html */; };
+		0EEB62321FB3DE73001F440F /* gym.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622E1FB3DCCE001F440F /* gym.html */; };
+		0EEB62331FB3DE75001F440F /* orbach.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622F1FB3DCCE001F440F /* orbach.html */; };
+		0EEB62341FB3DE77001F440F /* rivera.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622B1FB3DCCE001F440F /* rivera.html */; };
+		0EEB62351FB3DE7A001F440F /* sservice.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622C1FB3DCCE001F440F /* sservice.html */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
 		C7C3214A30BD82419073EDDF /* libPods-UCR Student Toolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */; };
 /* End PBXBuildFile section */
@@ -204,6 +210,12 @@
 		0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
+		0EEB622A1FB3DCCE001F440F /* bookstore.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bookstore.html; sourceTree = SOURCE_ROOT; };
+		0EEB622B1FB3DCCE001F440F /* rivera.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = rivera.html; sourceTree = SOURCE_ROOT; };
+		0EEB622C1FB3DCCE001F440F /* sservice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = sservice.html; sourceTree = SOURCE_ROOT; };
+		0EEB622D1FB3DCCE001F440F /* garden.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = garden.html; sourceTree = SOURCE_ROOT; };
+		0EEB622E1FB3DCCE001F440F /* gym.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gym.html; sourceTree = SOURCE_ROOT; };
+		0EEB622F1FB3DCCE001F440F /* orbach.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = orbach.html; sourceTree = SOURCE_ROOT; };
 		0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTableViewController.swift; sourceTree = "<group>"; };
 		0EFFAB2D1F3AAB3100DD6163 /* beartracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beartracks.png; sourceTree = SOURCE_ROOT; };
 		0EFFAB2E1F3AAB3100DD6163 /* chameleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chameleon.png; sourceTree = SOURCE_ROOT; };
@@ -282,6 +294,12 @@
 				0E2658BB1F88402D00F5C1F0 /* gmscot.html */,
 				0E2658B81F88402D00F5C1F0 /* gmshop.html */,
 				0E2658B71F88402D00F5C1F0 /* gmsizzle.html */,
+				0EEB622A1FB3DCCE001F440F /* bookstore.html */,
+				0EEB622D1FB3DCCE001F440F /* garden.html */,
+				0EEB622E1FB3DCCE001F440F /* gym.html */,
+				0EEB622F1FB3DCCE001F440F /* orbach.html */,
+				0EEB622B1FB3DCCE001F440F /* rivera.html */,
+				0EEB622C1FB3DCCE001F440F /* sservice.html */,
 				0E2658B61F88402D00F5C1F0 /* gmstarbucks.html */,
 				0E2658B11F88402D00F5C1F0 /* grill.html */,
 				0E2658BF1F88402E00F5C1F0 /* habanero.html */,
@@ -299,8 +317,8 @@
 				0E2658B31F88402D00F5C1F0 /* subway.html */,
 				0E2658A51F87254800F5C1F0 /* aiscot.html */,
 				0E02F1C61F2EC13800E04400 /* MapViewController.swift */,
-				0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */,
 				0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */,
+				0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
 				0E02F1C41F2D953B00E04400 /* StudyViewController.swift */,
 				0E02F1561F29496300E04400 /* account_bgd.png */,
@@ -517,6 +535,7 @@
 				0E2658C51F88403700F5C1F0 /* bytes.html in Resources */,
 				0E2658C81F88405000F5C1F0 /* fiamma.html in Resources */,
 				0E02F18C1F29496300E04400 /* ai.png in Resources */,
+				0EEB62301FB3DE6F001F440F /* bookstore.html in Resources */,
 				0E02F1A91F29496300E04400 /* icon_map.png in Resources */,
 				0E02F1AD1F29496300E04400 /* icon_schedule.png in Resources */,
 				0E2658CA1F88405700F5C1F0 /* gmscot.html in Resources */,
@@ -527,6 +546,7 @@
 				0E02F1971F29496300E04400 /* fiamma.jpg in Resources */,
 				0E2658D01F88406A00F5C1F0 /* highlander.html in Resources */,
 				0E02F18D1F29496300E04400 /* back.png in Resources */,
+				0EEB62321FB3DE73001F440F /* gym.html in Resources */,
 				0E02F1B81F29496300E04400 /* oldsplash.png in Resources */,
 				0E02EFFA1F2813C200E04400 /* Assets.xcassets in Resources */,
 				0E2658D61F8840CB00F5C1F0 /* lothianscot.html in Resources */,
@@ -535,6 +555,8 @@
 				0E2658C91F88405400F5C1F0 /* gmsavor.html in Resources */,
 				0E2658D91F8840DC00F5C1F0 /* pandasushi.html in Resources */,
 				0E02F1A81F29496300E04400 /* icon_ilearn.png in Resources */,
+				0EEB62341FB3DE77001F440F /* rivera.html in Resources */,
+				0EEB62351FB3DE7A001F440F /* sservice.html in Resources */,
 				0E02F1951F29496300E04400 /* contact.png in Resources */,
 				0E02EFF81F2813C200E04400 /* Main.storyboard in Resources */,
 				0E02F18B1F29496300E04400 /* account_bgd.png in Resources */,
@@ -555,6 +577,7 @@
 				0E2658D31F88407600F5C1F0 /* ivan.html in Resources */,
 				0E2658D11F88406E00F5C1F0 /* hub.html in Resources */,
 				0E02F1AE1F29496300E04400 /* icon_settings.png in Resources */,
+				0EEB62331FB3DE75001F440F /* orbach.html in Resources */,
 				0E02F1B71F29496300E04400 /* moomoo.png in Resources */,
 				0E02F1AF1F29496300E04400 /* icon_time.png in Resources */,
 				0E02F1901F29496300E04400 /* bookstore.png in Resources */,
@@ -572,6 +595,7 @@
 				0E02F1A21F29496300E04400 /* highlanderwelcome.png in Resources */,
 				0E2658CD1F88406000F5C1F0 /* gmstarbucks.html in Resources */,
 				0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */,
+				0EEB62311FB3DE71001F440F /* garden.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +850,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "UCR-Student-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -842,6 +867,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "UCR-Student-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

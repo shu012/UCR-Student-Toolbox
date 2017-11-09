@@ -9,8 +9,8 @@
 import UIKit
 
 class HoursViewController: ViewController {
-    @IBOutlet weak var menuLabel: UILabel!
-    @IBOutlet weak var menuWeb: UIWebView!
+    @IBOutlet weak var hoursLabel: UILabel!
+    @IBOutlet weak var hoursWeb: UIWebView!
     var label = String()
     var htmlFile = String()
     var segueIdentifier = String()
@@ -18,17 +18,18 @@ class HoursViewController: ViewController {
     func loadHtmlFile() {
         let url = Bundle.main.url(forResource: htmlFile, withExtension:"html")
         let request = URLRequest(url: url!)
-        menuWeb.loadRequest(request)
+        hoursWeb.loadRequest(request)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(htmlFile)
         loadHtmlFile()
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        menuLabel.text = label
+        hoursLabel.text = label
     }
 
     override func didReceiveMemoryWarning() {

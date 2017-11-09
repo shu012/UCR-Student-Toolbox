@@ -26,9 +26,9 @@ class BuildingTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-    var building = [(name: "Orbach Library", image: "library"), (name: "Rivera Library", image: "library"), (name: "Student Recreation Center", image: "gym"), (name: "Bookstore", image: "bookstore"), (name: "Student Services", image: "service"), (name: "Botanical Gardens", image: "garden")]
+//    var building = [(name: "Orbach Library", image: "library"), (name: "Rivera Library", image: "library"), (name: "Student Recreation Center", image: "gym"), (name: "Bookstore", image: "bookstore"), (name: "Student Services", image: "service"), (name: "Botanical Gardens", image: "garden")]
     
-//    var building = [(name: "Orbach Library", image: "library", html: "orbach"), (name: "Rivera Library", image: "library", html: "rivera"), (name: "Student Recreation Center", image: "gym", html: "gym"), (name: "Bookstore", image: "bookstore", html: "bookstore"), (name: "Student Services", image: "service", html: "sservice"), (name: "Botanical Gardens", image: "garden", html: "garden")]
+    var building = [(name: "Orbach Library", image: "library", html: "orbach"), (name: "Rivera Library", image: "library", html: "rivera"), (name: "Student Recreation Center", image: "gym", html: "gym"), (name: "Bookstore", image: "bookstore", html: "bookstore"), (name: "Student Services", image: "service", html: "sservice"), (name: "Botanical Gardens", image: "garden", html: "garden")]
     
     // MARK: - UITableViewDataSource
     
@@ -41,7 +41,7 @@ class BuildingTableViewController: UITableViewController {
         
         let place = building[indexPath.row].name
         cell.textLabel?.text = place
-        cell.imageView?.image = UIImage(named: building[indexPath.row].image)
+        //cell.imageView?.image = UIImage(named: building[indexPath.row].image)
         
         return cell
     }
@@ -51,15 +51,19 @@ class BuildingTableViewController: UITableViewController {
         return 1
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     let buildingSegueIdentifier = "ShowHourSegue"
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         if segue.identifier == buildingSegueIdentifier,
-            let  destination = segue.destination as? MenuViewController,
+            let  destination = segue.destination as? HoursViewController,
             let index = tableView.indexPathForSelectedRow?.row {
             destination.label = building[index].name
-            destination.htmlFile = ""
-//            destination.htmlFile = building[index].html
+            destination.htmlFile = building[index].html
         }
     }
 
