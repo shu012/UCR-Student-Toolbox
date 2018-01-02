@@ -87,6 +87,11 @@
 		0E2658D91F8840DC00F5C1F0 /* pandasushi.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658BC1F88402D00F5C1F0 /* pandasushi.html */; };
 		0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AD1F88402D00F5C1F0 /* spinelli.html */; };
 		0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B31F88402D00F5C1F0 /* subway.html */; };
+		0E3D2E071FFC2E3C00CA0FD0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */; };
+		0E3D2E091FFC2F0500CA0FD0 /* CollectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */; };
+		0E3D2E0F1FFC4B1E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
+		0E3D2E101FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
+		0E3D2E111FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
 		0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */; };
 		0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
@@ -206,6 +211,9 @@
 		0E2658C01F88402E00F5C1F0 /* beartracks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = beartracks.html; sourceTree = SOURCE_ROOT; };
 		0E2658C11F88402E00F5C1F0 /* lothian.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lothian.html; sourceTree = SOURCE_ROOT; };
 		0E2658C21F88402E00F5C1F0 /* hubscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hubscot.html; sourceTree = SOURCE_ROOT; };
+		0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionCollectionViewController.swift; path = "/Users/sarahu/Desktop/UCR-Student-Toolbox/UCR Student Toolbox/UCR Student Toolbox/CollectionCollectionViewController.swift"; sourceTree = "<absolute>"; };
+		0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
 		0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationsViewController.swift; sourceTree = "<group>"; };
 		0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
@@ -277,7 +285,9 @@
 		0E02EFF11F2813C200E04400 /* UCR Student Toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */,
 				0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */,
+				0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */,
 				0E2658A61F87254800F5C1F0 /* ai.html */,
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
 				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
@@ -320,6 +330,7 @@
 				0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */,
 				0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */,
 				0E02F1C01F2A6DA800E04400 /* iLearnViewController.swift */,
+				0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */,
 				0E02F1C41F2D953B00E04400 /* StudyViewController.swift */,
 				0E02F1561F29496300E04400 /* account_bgd.png */,
 				0E02F1571F29496300E04400 /* ai.png */,
@@ -678,12 +689,15 @@
 				0E02F1C91F32610000E04400 /* SafetyViewController.swift in Sources */,
 				0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */,
 				0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */,
+				0E3D2E071FFC2E3C00CA0FD0 /* NavigationViewController.swift in Sources */,
 				0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
 				0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */,
 				0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */,
 				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,
+				0E3D2E0F1FFC4B1E00CA0FD0 /* CollectionViewCell.swift in Sources */,
+				0E3D2E091FFC2F0500CA0FD0 /* CollectionCollectionViewController.swift in Sources */,
 				0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */,
 				0E02EFF51F2813C200E04400 /* ViewController.swift in Sources */,
 				0E02F1C31F2A73CF00E04400 /* RateMyProfessorViewController.swift in Sources */,
@@ -695,6 +709,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3D2E101FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */,
 				0E02F0081F2813C300E04400 /* UCR_Student_ToolboxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -703,6 +718,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3D2E111FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */,
 				0E02F0131F2813C300E04400 /* UCR_Student_ToolboxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

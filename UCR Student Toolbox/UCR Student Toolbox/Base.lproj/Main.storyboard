@@ -329,14 +329,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE9-1S-ik2">
-                                <rect key="frame" x="152.88058182246596" y="124" width="67.999999999999758" height="88.999999999999886"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yrn-A9-HRX">
+                                <rect key="frame" x="152.88058182246596" y="124" width="72" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icon_friend.png"/>
-                                <connections>
-                                    <segue destination="sGf-js-I0I" kind="show" id="D8Y-0a-AsR"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE9-1S-ik2">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="66"/>
+                                        <state key="normal" image="icon_friend.png"/>
+                                        <connections>
+                                            <segue destination="sGf-js-I0I" kind="show" id="D8Y-0a-AsR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advising" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2E-Jt-64F">
                                 <rect key="frame" x="156.28854303430171" y="201.99999999999977" width="55.999999999999986" height="21.000000000000057"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -499,13 +504,72 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jL-kM-SRa">
+                                <rect key="frame" x="95" y="587" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Collection View"/>
+                                <connections>
+                                    <segue destination="mOP-rc-LjY" kind="show" id="0ch-vj-V6h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWx-wl-Jv2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26" y="743"/>
+            <point key="canvasLocation" x="-26.399999999999999" y="742.5787106446777"/>
+        </scene>
+        <!--R'Mate-->
+        <scene sceneID="zN3-9w-Jqc">
+            <objects>
+                <collectionViewController id="ghM-po-fSG" customClass="CollectionCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="gqT-5e-CA3" customClass="CollectionViewCell" customModule="UCR_Student_Toolbox" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2Su-hw-XUk">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="1yi-7a-8Rs">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFR-xM-r4H">
+                                            <rect key="frame" x="4" y="29" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-Ca-2jL">
+                                            <rect key="frame" x="2" y="0.0" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                    </subviews>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ghM-po-fSG" id="eeT-vx-MrM"/>
+                            <outlet property="delegate" destination="ghM-po-fSG" id="5Vp-DE-i80"/>
+                            <outlet property="menuButton" destination="b5Q-Ca-2jL" id="jO6-w1-k8O"/>
+                            <outlet property="menuLabel" destination="UFR-xM-r4H" id="t1N-pZ-2Ab"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="R'Mate" id="F0d-s4-k2r"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIh-VS-qYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="607" y="1526"/>
         </scene>
         <!--Building Table View Controller-->
         <scene sceneID="WEt-ZE-SwW">
@@ -1242,6 +1306,24 @@
             </objects>
             <point key="canvasLocation" x="641" y="37"/>
         </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="srI-uM-XGz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mOP-rc-LjY" customClass="NavigationViewController" customModule="UCR_Student_Toolbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="96e-Yo-Jad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ghM-po-fSG" kind="relationship" relationship="rootViewController" id="bmz-XY-ykM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXJ-Xf-bDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-120" y="1526.5367316341831"/>
+        </scene>
     </scenes>
     <resources>
         <image name="account_bgd.png" width="488" height="86"/>
@@ -1264,9 +1346,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="INQ-ue-M2K"/>
-        <segue reference="SQa-et-E5v"/>
-        <segue reference="4Ri-w2-qXK"/>
+        <segue reference="eY5-sS-jzv"/>
+        <segue reference="8wE-Xv-yY1"/>
+        <segue reference="73W-dS-r17"/>
         <segue reference="mbw-HF-lFS"/>
-        <segue reference="Yqx-6W-E3F"/>
     </inferredMetricsTieBreakers>
 </document>
