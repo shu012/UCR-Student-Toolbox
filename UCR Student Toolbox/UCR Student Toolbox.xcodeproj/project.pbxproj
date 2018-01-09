@@ -88,7 +88,6 @@
 		0E2658DA1F8840DF00F5C1F0 /* spinelli.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658AD1F88402D00F5C1F0 /* spinelli.html */; };
 		0E2658DB1F8840E200F5C1F0 /* subway.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E2658B31F88402D00F5C1F0 /* subway.html */; };
 		0E3D2E071FFC2E3C00CA0FD0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */; };
-		0E3D2E091FFC2F0500CA0FD0 /* CollectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */; };
 		0E3D2E0F1FFC4B1E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
 		0E3D2E101FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
 		0E3D2E111FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
@@ -103,6 +102,7 @@
 		0EEB62341FB3DE77001F440F /* rivera.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622B1FB3DCCE001F440F /* rivera.html */; };
 		0EEB62351FB3DE7A001F440F /* sservice.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622C1FB3DCCE001F440F /* sservice.html */; };
 		0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */; };
+		12D7CF6E2004AED3004165B6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7CF6D2004AED3004165B6 /* CollectionViewController.swift */; };
 		C7C3214A30BD82419073EDDF /* libPods-UCR Student Toolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */; };
 /* End PBXBuildFile section */
 
@@ -212,7 +212,6 @@
 		0E2658C11F88402E00F5C1F0 /* lothian.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lothian.html; sourceTree = SOURCE_ROOT; };
 		0E2658C21F88402E00F5C1F0 /* hubscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hubscot.html; sourceTree = SOURCE_ROOT; };
 		0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionCollectionViewController.swift; path = "/Users/sarahu/Desktop/UCR-Student-Toolbox/UCR Student Toolbox/UCR Student Toolbox/CollectionCollectionViewController.swift"; sourceTree = "<absolute>"; };
 		0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
 		0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationsViewController.swift; sourceTree = "<group>"; };
 		0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +227,7 @@
 		0EFFAB2D1F3AAB3100DD6163 /* beartracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beartracks.png; sourceTree = SOURCE_ROOT; };
 		0EFFAB2E1F3AAB3100DD6163 /* chameleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chameleon.png; sourceTree = SOURCE_ROOT; };
 		0EFFAB2F1F3AAB3100DD6163 /* coffeebean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeebean.png; sourceTree = SOURCE_ROOT; };
+		12D7CF6D2004AED3004165B6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		149ECE9D754B274FD269EE22 /* Pods-UCR Student Toolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCR Student Toolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox.release.xcconfig"; sourceTree = "<group>"; };
 		A89CCC7F2D5209BDCE18A828 /* Pods-UCR Student Toolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCR Student Toolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCR Student Toolbox/Pods-UCR Student Toolbox.debug.xcconfig"; sourceTree = "<group>"; };
 		DE5B5249FEEB0D5B25FCD767 /* libPods-UCR Student Toolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UCR Student Toolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,7 +287,6 @@
 			children = (
 				0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */,
 				0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */,
-				0E3D2E081FFC2F0400CA0FD0 /* CollectionCollectionViewController.swift */,
 				0E2658A61F87254800F5C1F0 /* ai.html */,
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
 				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
@@ -381,6 +380,7 @@
 				0E02EFF91F2813C200E04400 /* Assets.xcassets */,
 				0E02EFFB1F2813C200E04400 /* LaunchScreen.storyboard */,
 				0E02EFFE1F2813C200E04400 /* Info.plist */,
+				12D7CF6D2004AED3004165B6 /* CollectionViewController.swift */,
 			);
 			path = "UCR Student Toolbox";
 			sourceTree = "<group>";
@@ -690,6 +690,7 @@
 				0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */,
 				0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */,
 				0E3D2E071FFC2E3C00CA0FD0 /* NavigationViewController.swift in Sources */,
+				12D7CF6E2004AED3004165B6 /* CollectionViewController.swift in Sources */,
 				0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
 				0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */,
@@ -697,7 +698,6 @@
 				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,
 				0E3D2E0F1FFC4B1E00CA0FD0 /* CollectionViewCell.swift in Sources */,
-				0E3D2E091FFC2F0500CA0FD0 /* CollectionCollectionViewController.swift in Sources */,
 				0E02F1C11F2A6DA800E04400 /* iLearnViewController.swift in Sources */,
 				0E02EFF51F2813C200E04400 /* ViewController.swift in Sources */,
 				0E02F1C31F2A73CF00E04400 /* RateMyProfessorViewController.swift in Sources */,

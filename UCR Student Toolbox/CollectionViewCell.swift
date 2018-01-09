@@ -9,5 +9,5 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var menuLabel: UILabel!
-    @IBOutlet weak var menuButton: UIButton!
+    @IBOutlet weak var menuIconImageView: UIImageView!
 }
