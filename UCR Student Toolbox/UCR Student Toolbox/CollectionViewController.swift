@@ -97,8 +97,28 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         switch menuItem.title {
         case "Map":
             destinationController = storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
-        default:
+        case "Dining":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "DiningTableViewController") as! DiningTableViewController
+        case "Rate My Professor":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "RateMyProfessorViewController") as! RateMyProfessorViewController
+        case "Settings":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+        case "Advising":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "AdvisingViewController") as! AdvisingViewController
+        case "Study Rooms":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "StudyViewController") as! StudyViewController
+        case "Safety":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "SafetyViewController") as! SafetyViewController
+        case "Building Hours":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "BuildingTableViewController") as! BuildingTableViewController
+        case "Food Trucks":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "TruckTableViewController") as! TruckTableViewController
+        case "Schedule":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "ScheduleViewController") as! ScheduleViewController
+        case "iLearn":
             destinationController = storyboard?.instantiateViewController(withIdentifier: "iLearnViewController") as! iLearnViewController
+        default:
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "MenuCollectionView") as! CollectionViewController
         }
         
         navigationController?.pushViewController(destinationController, animated: true)
