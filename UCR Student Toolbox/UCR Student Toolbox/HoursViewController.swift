@@ -9,9 +9,7 @@
 import UIKit
 
 class HoursViewController: ViewController {
-    @IBOutlet weak var hoursLabel: UILabel!
     @IBOutlet weak var hoursWeb: UIWebView!
-    var label = String()
     var htmlFile = String()
     var segueIdentifier = String()
     
@@ -26,10 +24,6 @@ class HoursViewController: ViewController {
         print(htmlFile)
         loadHtmlFile()
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        hoursLabel.text = label
     }
 
     override func didReceiveMemoryWarning() {

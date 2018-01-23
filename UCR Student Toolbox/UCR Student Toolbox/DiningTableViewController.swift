@@ -60,7 +60,6 @@ class DiningTableViewController: UITableViewController {
         if segue.identifier == menuSegueIdentifier,
             let  destination = segue.destination as? MenuViewController,
             let index = tableView.indexPathForSelectedRow?.row {
-            destination.label = dining[index].name
             destination.htmlFile = dining[index].html
         }
     }

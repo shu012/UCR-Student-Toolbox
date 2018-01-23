@@ -9,10 +9,7 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-    
-    @IBOutlet weak var menuLabel: UILabel!
     @IBOutlet weak var menuWeb: UIWebView!
-    var label = String()
     var htmlFile = String()
     var segueIdentifier = String()
 
@@ -26,10 +23,6 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
         loadHtmlFile()
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        menuLabel.text = label
     }
 
     override func didReceiveMemoryWarning() {

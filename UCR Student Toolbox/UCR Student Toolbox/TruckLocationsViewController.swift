@@ -9,16 +9,12 @@
 import UIKit
 
 class TruckLocationsViewController: ViewController {
-
-    @IBOutlet weak var truckLabel: UILabel!
     @IBOutlet weak var locWeb: UIWebView!
     
-    var label = String()
     var location = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        truckLabel.text = label
         let url = URL(string: location)
         locWeb.loadRequest(URLRequest(url: url!))
         // Do any additional setup after loading the view.

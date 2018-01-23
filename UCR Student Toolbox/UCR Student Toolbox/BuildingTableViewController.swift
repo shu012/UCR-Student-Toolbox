@@ -62,7 +62,6 @@ class BuildingTableViewController: UITableViewController {
         if segue.identifier == buildingSegueIdentifier,
             let  destination = segue.destination as? HoursViewController,
             let index = tableView.indexPathForSelectedRow?.row {
-            destination.label = building[index].name
             destination.htmlFile = building[index].html
         }
     }

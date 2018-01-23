@@ -55,7 +55,6 @@ class TruckTableViewController: UITableViewController {
             if segue.identifier == truckSegueIdentifier,
                 let  destination = segue.destination as? TruckLocationsViewController,
                 let index = tableView.indexPathForSelectedRow?.row {
-                destination.label = truck[index].name
                 destination.location = truck[index].url
             }
         }
