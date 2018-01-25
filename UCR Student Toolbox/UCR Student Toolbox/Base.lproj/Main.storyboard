@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="6dj-QG-Fq1">
             <objects>
-                <viewController id="SKr-v5-6H4" sceneMemberID="viewController">
+                <viewController id="SKr-v5-6H4" customClass="SignInViewController" customModule="UCR_Student_Toolbox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xhb-5C-65z"/>
                         <viewControllerLayoutGuide type="bottom" id="gjf-RQ-rxI"/>
@@ -333,7 +333,7 @@
                             <outlet property="delegate" destination="Dd6-qd-L4Q" id="Xla-XQ-r5l"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="O3s-RA-lhu"/>
+                    <navigationItem key="navigationItem" title="Dining" id="O3s-RA-lhu"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZK-RO-0yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -351,13 +351,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bO3-XR-pdq">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bO3-XR-pdq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bO3-XR-pdq" firstAttribute="leading" secondItem="mDG-Pf-3Zd" secondAttribute="leading" id="2ih-3v-yei"/>
+                            <constraint firstItem="bO3-XR-pdq" firstAttribute="bottom" secondItem="3AH-GY-F9a" secondAttribute="top" id="9Ak-fG-2WA"/>
+                            <constraint firstAttribute="trailing" secondItem="bO3-XR-pdq" secondAttribute="trailing" id="Qe4-VX-cq3"/>
+                            <constraint firstItem="bO3-XR-pdq" firstAttribute="top" secondItem="mDG-Pf-3Zd" secondAttribute="top" id="rTw-Qb-Xet"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="menuWeb" destination="bO3-XR-pdq" id="iSO-TL-yOU"/>
@@ -379,15 +384,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rjc-OJ-Z5O">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rjc-OJ-Z5O">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rjc-OJ-Z5O" firstAttribute="bottom" secondItem="J9N-tC-aos" secondAttribute="top" id="P9c-Ta-ysX"/>
+                            <constraint firstItem="Rjc-OJ-Z5O" firstAttribute="top" secondItem="X2F-zg-gUs" secondAttribute="top" id="RdN-QH-N0O"/>
+                            <constraint firstAttribute="trailing" secondItem="Rjc-OJ-Z5O" secondAttribute="trailing" id="fZa-Xj-How"/>
+                            <constraint firstItem="Rjc-OJ-Z5O" firstAttribute="leading" secondItem="X2F-zg-gUs" secondAttribute="leading" id="itm-Aq-cIN"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="eNF-Z4-8Z6"/>
+                    <navigationItem key="navigationItem" title="Rate My Professor" id="eNF-Z4-8Z6"/>
                     <connections>
                         <outlet property="ProfessorView" destination="Rjc-OJ-Z5O" id="6dP-Pv-XhD"/>
                         <outlet property="professorView" destination="Rjc-OJ-Z5O" id="MHQ-lM-s75"/>
@@ -409,13 +419,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poa-ZN-TE9">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="poa-ZN-TE9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="poa-ZN-TE9" firstAttribute="leading" secondItem="GLz-PY-5aU" secondAttribute="leading" id="38C-Bf-CaW"/>
+                            <constraint firstItem="poa-ZN-TE9" firstAttribute="top" secondItem="GLz-PY-5aU" secondAttribute="top" id="LCI-mv-xya"/>
+                            <constraint firstItem="poa-ZN-TE9" firstAttribute="bottom" secondItem="YEG-2l-drk" secondAttribute="top" id="vdC-ky-0HM"/>
+                            <constraint firstAttribute="trailing" secondItem="poa-ZN-TE9" secondAttribute="trailing" id="zGx-jq-SfR"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="studyView" destination="poa-ZN-TE9" id="NDh-PM-byc"/>
@@ -529,22 +544,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yOf-jI-0CT">
-                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yOf-jI-0CT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yOf-jI-0CT" firstAttribute="top" secondItem="q17-gN-c4b" secondAttribute="top" id="0tU-NP-IwG"/>
+                            <constraint firstItem="yOf-jI-0CT" firstAttribute="leading" secondItem="q17-gN-c4b" secondAttribute="leading" id="Dmv-7s-IJu"/>
+                            <constraint firstAttribute="trailing" secondItem="yOf-jI-0CT" secondAttribute="trailing" id="PBb-Ox-m4t"/>
+                            <constraint firstItem="yOf-jI-0CT" firstAttribute="bottom" secondItem="lbk-DG-2z6" secondAttribute="top" id="RxR-kC-OhV"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="w96-fF-8Lf"/>
+                    <navigationItem key="navigationItem" title="iLearn" id="w96-fF-8Lf"/>
                     <connections>
                         <outlet property="iLearnWeb" destination="yOf-jI-0CT" id="QmH-Ox-AgU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dcc-t9-6ZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1314" y="37"/>
+            <point key="canvasLocation" x="1312.8" y="36.431784107946029"/>
         </scene>
         <!--Building Hours-->
         <scene sceneID="PIj-9E-YPj">
@@ -558,13 +578,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pPL-3h-LSo">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pPL-3h-LSo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pPL-3h-LSo" secondAttribute="trailing" id="5Rn-wD-dcS"/>
+                            <constraint firstItem="pPL-3h-LSo" firstAttribute="bottom" secondItem="s2G-h1-0uk" secondAttribute="top" id="Igm-Ek-uBZ"/>
+                            <constraint firstItem="pPL-3h-LSo" firstAttribute="top" secondItem="kSi-qr-n6f" secondAttribute="top" id="eRJ-mL-txI"/>
+                            <constraint firstItem="pPL-3h-LSo" firstAttribute="leading" secondItem="kSi-qr-n6f" secondAttribute="leading" id="zIn-q1-C7l"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="hoursWeb" destination="pPL-3h-LSo" id="n1p-ep-ZnH"/>
@@ -586,13 +611,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avq-ru-zpJ">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Avq-ru-zpJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Avq-ru-zpJ" firstAttribute="bottom" secondItem="5MA-fK-BdK" secondAttribute="top" id="QqQ-Hb-UdC"/>
+                            <constraint firstItem="Avq-ru-zpJ" firstAttribute="leading" secondItem="cO2-Od-Gb4" secondAttribute="leading" id="SpD-Cn-Zjk"/>
+                            <constraint firstItem="Avq-ru-zpJ" firstAttribute="top" secondItem="cO2-Od-Gb4" secondAttribute="top" id="cAG-dM-JJZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Avq-ru-zpJ" secondAttribute="trailing" id="tVi-DD-ZdJ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="locWeb" destination="Avq-ru-zpJ" id="7qg-EW-aDC"/>

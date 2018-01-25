@@ -96,6 +96,7 @@
 		0E7DEF012017D6270087AA8E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7DEF002017D6270087AA8E /* SettingsViewController.swift */; };
 		0E7DEF072017D77B0087AA8E /* AdvisingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7DEF062017D77B0087AA8E /* AdvisingViewController.swift */; };
 		0E7DEF092017D7900087AA8E /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7DEF082017D7900087AA8E /* ScheduleViewController.swift */; };
+		0E94C4C3201A676400913032 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94C4C2201A676400913032 /* SignInViewController.swift */; };
 		0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */; };
 		0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */; };
 		0EEB62301FB3DE6F001F440F /* bookstore.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB622A1FB3DCCE001F440F /* bookstore.html */; };
@@ -221,6 +222,7 @@
 		0E7DEF002017D6270087AA8E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E7DEF062017D77B0087AA8E /* AdvisingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisingViewController.swift; sourceTree = "<group>"; };
 		0E7DEF082017D7900087AA8E /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		0E94C4C2201A676400913032 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
 		0EEB622A1FB3DCCE001F440F /* bookstore.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bookstore.html; sourceTree = SOURCE_ROOT; };
@@ -302,6 +304,7 @@
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
 				0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */,
+				0E94C4C2201A676400913032 /* SignInViewController.swift */,
 				0E2658BA1F88402D00F5C1F0 /* barn.html */,
 				0E2658C01F88402E00F5C1F0 /* beartracks.html */,
 				0E2658BE1F88402E00F5C1F0 /* bytes.html */,
@@ -703,6 +706,7 @@
 				0EB8ABF61F6079A300EEF97B /* BuildingTableViewController.swift in Sources */,
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
 				0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */,
+				0E94C4C3201A676400913032 /* SignInViewController.swift in Sources */,
 				0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */,
 				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,

@@ -117,6 +117,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             destinationController = storyboard?.instantiateViewController(withIdentifier: "ScheduleViewController") as! ScheduleViewController
         case "iLearn":
             destinationController = storyboard?.instantiateViewController(withIdentifier: "iLearnViewController") as! iLearnViewController
+        case "Log Out":
+            destinationController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
         default:
             destinationController = storyboard?.instantiateViewController(withIdentifier: "MenuCollectionView") as! CollectionViewController
         }
