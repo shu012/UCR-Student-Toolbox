@@ -117,14 +117,21 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             destinationController = storyboard?.instantiateViewController(withIdentifier: "ScheduleViewController") as! ScheduleViewController
         case "iLearn":
             destinationController = storyboard?.instantiateViewController(withIdentifier: "iLearnViewController") as! iLearnViewController
-        case "Log Out":
-            destinationController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+//        case "Log Out":
+//            destinationController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
         default:
             destinationController = storyboard?.instantiateViewController(withIdentifier: "MenuCollectionView") as! CollectionViewController
         }
         
-        navigationController?.pushViewController(destinationController, animated: true)
-        
+        switch menuItem.title{
+        case "Log Out":
+            //link to sign in page
+            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+            self.present(nextViewController, animated:true, completion:nil)
+        default:
+            navigationController?.pushViewController(destinationController, animated: true)
+            
+        }
     }
 
     /*
