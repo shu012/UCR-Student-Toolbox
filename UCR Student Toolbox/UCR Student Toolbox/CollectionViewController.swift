@@ -16,6 +16,16 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         var title: String!
         var icon: UIImage!
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        AppDelegate.AppUtility.lockOrientation(.portrait)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AppDelegate.AppUtility.lockOrientation(.all)
+    }
 
     var menuItems: [MenuItem] = []
     
@@ -117,15 +127,12 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             destinationController = storyboard?.instantiateViewController(withIdentifier: "ScheduleViewController") as! ScheduleViewController
         case "iLearn":
             destinationController = storyboard?.instantiateViewController(withIdentifier: "iLearnViewController") as! iLearnViewController
-//        case "Log Out":
-//            destinationController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
         default:
             destinationController = storyboard?.instantiateViewController(withIdentifier: "MenuCollectionView") as! CollectionViewController
         }
         
         switch menuItem.title{
         case "Log Out":
-            //link to sign in page
             let nextViewController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
             self.present(nextViewController, animated:true, completion:nil)
         default:

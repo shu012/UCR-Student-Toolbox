@@ -91,6 +91,7 @@
 		0E3D2E0F1FFC4B1E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
 		0E3D2E101FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
 		0E3D2E111FFC4B9E00CA0FD0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */; };
+		0E46B6A32022A8C700F7BBCB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46B6A22022A8C700F7BBCB /* RegisterViewController.swift */; };
 		0E5F4E561F9A9D91007C1A24 /* TruckLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */; };
 		0E5F4E581F9B3B1D007C1A24 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */; };
 		0E7DEF012017D6270087AA8E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7DEF002017D6270087AA8E /* SettingsViewController.swift */; };
@@ -217,6 +218,7 @@
 		0E2658C21F88402E00F5C1F0 /* hubscot.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = hubscot.html; sourceTree = SOURCE_ROOT; };
 		0E3D2E061FFC2E3C00CA0FD0 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		0E3D2E0E1FFC4B1E00CA0FD0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
+		0E46B6A22022A8C700F7BBCB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0E5F4E551F9A9D91007C1A24 /* TruckLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckLocationsViewController.swift; sourceTree = "<group>"; };
 		0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
 		0E7DEF002017D6270087AA8E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,
 				0E5F4E571F9B3B1D007C1A24 /* HoursViewController.swift */,
 				0E94C4C2201A676400913032 /* SignInViewController.swift */,
+				0E46B6A22022A8C700F7BBCB /* RegisterViewController.swift */,
 				0E2658BA1F88402D00F5C1F0 /* barn.html */,
 				0E2658C01F88402E00F5C1F0 /* beartracks.html */,
 				0E2658BE1F88402E00F5C1F0 /* bytes.html */,
@@ -505,6 +508,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = LP2B3627Y5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0E02F0021F2813C300E04400 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -707,6 +715,7 @@
 				0E02F1C51F2D953B00E04400 /* StudyViewController.swift in Sources */,
 				0EB8ABF81F607BF700EEF97B /* TruckTableViewController.swift in Sources */,
 				0E94C4C3201A676400913032 /* SignInViewController.swift in Sources */,
+				0E46B6A32022A8C700F7BBCB /* RegisterViewController.swift in Sources */,
 				0E2658A41F86A12600F5C1F0 /* MenuViewController.swift in Sources */,
 				0EFFAB291F3A366800DD6163 /* DiningTableViewController.swift in Sources */,
 				0E02F1C71F2EC13800E04400 /* MapViewController.swift in Sources */,

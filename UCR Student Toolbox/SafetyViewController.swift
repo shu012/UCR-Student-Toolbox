@@ -9,6 +9,15 @@
 import UIKit
 
 class SafetyViewController: UIViewController {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        AppDelegate.AppUtility.lockOrientation(.portrait)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AppDelegate.AppUtility.lockOrientation(.all)
+    }
 
     //add in the actual numbers
     @IBAction func campusCall(_ sender: UIButton) {

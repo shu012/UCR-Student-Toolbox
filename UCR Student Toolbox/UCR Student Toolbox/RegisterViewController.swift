@@ -1,14 +1,14 @@
 //
-//  AdvisingViewController.swift
+//  RegisterViewController.swift
 //  UCR Student Toolbox
 //
-//  Created by Sara Hu on 1/23/18.
+//  Created by Sara Hu on 1/31/18.
 //  Copyright © 2018 Sara Hu. All rights reserved.
 //
 
 import UIKit
 
-class AdvisingViewController: UIViewController {
+class RegisterViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         AppDelegate.AppUtility.lockOrientation(.portrait)
