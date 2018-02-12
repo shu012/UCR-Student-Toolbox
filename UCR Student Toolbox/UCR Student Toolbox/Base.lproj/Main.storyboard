@@ -146,8 +146,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_bgd.png" translatesAutoresizingMaskIntoConstraints="NO" id="OgI-rz-IcP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="account_bgd.png" translatesAutoresizingMaskIntoConstraints="NO" id="OgI-rz-IcP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="OxA-TQ-aP4"/>
                                 </constraints>
@@ -268,15 +268,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuE-xo-ohm">
-                                <rect key="frame" x="141" y="-2" width="92" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="92" id="GLG-vA-MTm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student ID Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pg-eu-Q83">
                                 <rect key="frame" x="24" y="368" width="158" height="21"/>
                                 <constraints>
@@ -284,6 +275,15 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuE-xo-ohm">
+                                <rect key="frame" x="141" y="20" width="92" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="GLG-vA-MTm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -301,7 +301,7 @@
                             <constraint firstItem="gZj-mc-da0" firstAttribute="top" secondItem="P2L-IO-RZR" secondAttribute="bottom" constant="16" id="BOg-fU-Ruz"/>
                             <constraint firstItem="P2L-IO-RZR" firstAttribute="leading" secondItem="gZj-mc-da0" secondAttribute="leading" id="DYd-i2-k1k"/>
                             <constraint firstItem="II9-nF-aJt" firstAttribute="top" secondItem="QgO-Xh-pbG" secondAttribute="bottom" constant="15" id="I9Q-hu-nPN"/>
-                            <constraint firstItem="RuE-xo-ohm" firstAttribute="top" secondItem="fYp-H8-qoA" secondAttribute="topMargin" constant="-22" id="JAW-rJ-aLj"/>
+                            <constraint firstItem="RuE-xo-ohm" firstAttribute="top" secondItem="fYp-H8-qoA" secondAttribute="topMargin" id="JAW-rJ-aLj"/>
                             <constraint firstItem="ydi-D2-6vr" firstAttribute="top" secondItem="rbr-VZ-lTL" secondAttribute="bottom" constant="8" symbolic="YES" id="JNe-iV-S8s"/>
                             <constraint firstItem="2pg-eu-Q83" firstAttribute="top" secondItem="II9-nF-aJt" secondAttribute="bottom" constant="127" id="JlF-4l-fMD"/>
                             <constraint firstItem="yXb-tJ-ETa" firstAttribute="leading" secondItem="fYp-H8-qoA" secondAttribute="leadingMargin" constant="95" id="Ki3-p8-r7J"/>
@@ -314,7 +314,7 @@
                             <constraint firstItem="rbr-VZ-lTL" firstAttribute="centerX" secondItem="ydi-D2-6vr" secondAttribute="centerX" id="W4g-bc-TgA"/>
                             <constraint firstItem="ydi-D2-6vr" firstAttribute="leading" secondItem="XS9-XR-Jh3" secondAttribute="trailing" constant="41" id="ZJD-Gx-yHX"/>
                             <constraint firstItem="gZj-mc-da0" firstAttribute="trailing" secondItem="JOn-KC-14O" secondAttribute="trailing" id="bjx-hz-bBw"/>
-                            <constraint firstItem="OgI-rz-IcP" firstAttribute="bottom" secondItem="RuE-xo-ohm" secondAttribute="bottom" id="cx2-4Z-M8B"/>
+                            <constraint firstItem="OgI-rz-IcP" firstAttribute="bottom" secondItem="RuE-xo-ohm" secondAttribute="bottom" constant="-1" id="cx2-4Z-M8B"/>
                             <constraint firstItem="OgI-rz-IcP" firstAttribute="centerX" secondItem="yhg-aD-9eC" secondAttribute="centerX" id="eer-8b-GaX"/>
                             <constraint firstAttribute="trailing" secondItem="OgI-rz-IcP" secondAttribute="trailing" id="i6J-sk-AaT"/>
                             <constraint firstItem="DVT-xP-nS2" firstAttribute="top" secondItem="DeB-pm-Q63" secondAttribute="bottom" constant="8" symbolic="YES" id="i6L-B3-122"/>
