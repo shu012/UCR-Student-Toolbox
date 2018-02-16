@@ -31,16 +31,16 @@ class iLearnViewController: UIViewController, UIWebViewDelegate {
     }
     
     
-    func webViewDidFinishLoad(_ webView: UIWebView) {
-        let savedUsername = "username"
-        let savedPassword = "password"
-        
-        let fillForm = String(format: "document.getElementById('username').value = '\(savedUsername)';document.getElementById('password').value = '\(savedPassword)';")
-        webView.stringByEvaluatingJavaScript(from: fillForm)
-        
-        webView.stringByEvaluatingJavaScript(from: "document.forms[0].submit();")
-        
-    }
+//    func webViewDidFinishLoad(_ webView: UIWebView) {
+//        let savedUsername = "username"
+//        let savedPassword = "password"
+//
+//        let fillForm = String(format: "document.getElementById('username').value = '\(savedUsername)';document.getElementById('password').value = '\(savedPassword)';")
+//        webView.stringByEvaluatingJavaScript(from: fillForm)
+//
+//        webView.stringByEvaluatingJavaScript(from: "document.forms[0].submit();")
+//
+//    }
     
     
     /*

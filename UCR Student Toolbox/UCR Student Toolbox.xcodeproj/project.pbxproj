@@ -227,6 +227,7 @@
 		0E94C4C2201A676400913032 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF51F6079A300EEF97B /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckTableViewController.swift; sourceTree = "<group>"; };
+		0EE7212920365E48005D779B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = SOURCE_ROOT; };
 		0EEB622A1FB3DCCE001F440F /* bookstore.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bookstore.html; sourceTree = SOURCE_ROOT; };
 		0EEB622B1FB3DCCE001F440F /* rivera.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = rivera.html; sourceTree = SOURCE_ROOT; };
 		0EEB622C1FB3DCCE001F440F /* sservice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = sservice.html; sourceTree = SOURCE_ROOT; };
@@ -302,6 +303,7 @@
 				0EB8ABF71F607BF700EEF97B /* TruckTableViewController.swift */,
 				0E2658A61F87254800F5C1F0 /* ai.html */,
 				0E02F1C81F32610000E04400 /* SafetyViewController.swift */,
+				0EE7212920365E48005D779B /* ic_launcher.png */,
 				0E2658A31F86A12600F5C1F0 /* MenuViewController.swift */,
 				0E02F1C21F2A73CF00E04400 /* RateMyProfessorViewController.swift */,
 				0EFFAB281F3A366800DD6163 /* DiningTableViewController.swift */,

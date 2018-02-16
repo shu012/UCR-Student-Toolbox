@@ -47,9 +47,23 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             MenuItem(title:"Food Trucks", icon: #imageLiteral(resourceName: "icon_truck.png")),
             MenuItem(title:"Study Rooms", icon: #imageLiteral(resourceName: "icon_books.png")),
             MenuItem(title:"Settings", icon: #imageLiteral(resourceName: "icon_settings.png")),
-            MenuItem(title:"Safety", icon:#imageLiteral(resourceName: "icon_safety.png")),
-            MenuItem(title:"Log Out", icon: #imageLiteral(resourceName: "lock_img.png"))
+            MenuItem(title:"Safety", icon:#imageLiteral(resourceName: "icon_safety.png"))
         ]
+        
+//        menuItems = [
+//            MenuItem(title: "Map", icon: #imageLiteral(resourceName: "icon_map.png")),
+//            MenuItem(title:"Advising", icon: #imageLiteral(resourceName: "icon_friend.png")),
+//            MenuItem(title:"iLearn", icon: #imageLiteral(resourceName: "icon_ilearn.png")),
+//            MenuItem(title:"Schedule", icon: #imageLiteral(resourceName: "icon_schedule.png")),
+//            MenuItem(title:"Rate My Professor", icon: #imageLiteral(resourceName: "icon_professor.png")),
+//            MenuItem(title:"Dining", icon:#imageLiteral(resourceName: "icon_food.png")),
+//            MenuItem(title:"Building Hours", icon: #imageLiteral(resourceName: "icon_time.png")),
+//            MenuItem(title:"Food Trucks", icon: #imageLiteral(resourceName: "icon_truck.png")),
+//            MenuItem(title:"Study Rooms", icon: #imageLiteral(resourceName: "icon_books.png")),
+//            MenuItem(title:"Settings", icon: #imageLiteral(resourceName: "icon_settings.png")),
+//            MenuItem(title:"Safety", icon:#imageLiteral(resourceName: "icon_safety.png")),
+//            MenuItem(title:"Log Out", icon: #imageLiteral(resourceName: "lock_img.png"))
+//        ]
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -131,14 +145,16 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             destinationController = storyboard?.instantiateViewController(withIdentifier: "MenuCollectionView") as! CollectionViewController
         }
         
-        switch menuItem.title{
-        case "Log Out":
-            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
-            self.present(nextViewController, animated:true, completion:nil)
-        default:
-            navigationController?.pushViewController(destinationController, animated: true)
-            
-        }
+        navigationController?.pushViewController(destinationController, animated: true)
+        
+//        switch menuItem.title{
+//        case "Log Out":
+//            let nextViewController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+//            self.present(nextViewController, animated:true, completion:nil)
+//        default:
+//            navigationController?.pushViewController(destinationController, animated: true)
+//
+//        }
     }
 
     /*
